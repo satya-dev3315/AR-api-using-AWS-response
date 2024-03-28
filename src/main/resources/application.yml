@@ -1,0 +1,34 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/AR_api_db
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+  application:
+    name: AR-api
+      
+ssaWebApiURL: http://13.60.55.97:8080/ssa      
+      
+    
+#  boot:
+#    admin:
+#      client:
+#        url:
+#        - http://localhost:8081/
+#        
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#        - '*'               
+    
+    
