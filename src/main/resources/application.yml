@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/AR_api_db
-    username: root
-    password: root
+    url: jdbc:mysql://localhost:3306/db
+    username: usr
+    password: pwd
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -15,7 +15,7 @@ spring:
   application:
     name: AR-api
       
-ssaWebApiURL: http://13.60.55.97:8080/ssa      
+ssaWebApiURL: http://aws-public-ip:8080/ssa      
       
     
 #  boot:
